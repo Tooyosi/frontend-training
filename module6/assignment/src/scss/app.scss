@@ -1,0 +1,20 @@
+$color-one: rgb(206, 22, 22);
+$color-two: rgb(223, 142, 142);
+$color-three: rgb(70, 27, 27);
+*{ box-sizing: border-box}
+
+*{
+    body{
+        margin: 0;
+        background: $color-one;
+        text-align: center;
+        color: $color-three;
+    }
+    h1{
+        color: $color-two;
+        font-size: 45px;
+    }
+    footer{
+        margin-top: 70vh;
+    }
+}
